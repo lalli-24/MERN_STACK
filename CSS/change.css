@@ -1,0 +1,9 @@
+body{
+    background-color: aquamarine;
+    transition: background-color 1s ease-in 1s;
+
+}
+
+body:hover{
+    background-color: chartreuse;
+}
