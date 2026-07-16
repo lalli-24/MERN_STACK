@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+    background-color: grey;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+}
