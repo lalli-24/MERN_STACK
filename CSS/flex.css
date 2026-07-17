@@ -1,7 +1,7 @@
 .container{
     display:flex;
     background-color: grey;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .box{
     width: 100px;
@@ -12,4 +12,14 @@
     margin: 10px;
     line-height: 100px;
     
+}
+body{
+    margin: 40px;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    position: relative;
+
 }
