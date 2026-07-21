@@ -50,6 +50,35 @@ function Forms(){
             <option value="js">js</option><br /></select><br />
             <button type="submit"> Submit</button>
         </form>
+        <div style={{position:"relative",top:"1.5cm"}}>
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td>{User.name}</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>{User.email}</td>
+                </tr>
+                <tr>
+                    <th>Password:</th>
+                    <td>{User.password}</td>
+                </tr>
+                
+                <tr>
+                    <th>Phone:</th>
+                    <td>{User.phone}</td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td>{User.gender}</td>
+                </tr>
+                <tr>
+                    <th>Skills:</th>
+                    <td>{User.skills}</td>
+                </tr>
+            </table>
+        </div>
         </div>
         </>
     )
