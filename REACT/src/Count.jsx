@@ -15,13 +15,13 @@ function Count(){
         <h1 className="count">Count:{count}</h1>
         <div className="counting">
             <button
-                onClick={
+                onDoubleClick={
                     ()=>setCount(count+1)
                 }> 
                 +1
             </button>
             <button
-                onClick={
+                onDoubleClick={
                     ()=>setCount(count-1)
                 }> 
                 -1
