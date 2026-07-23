@@ -10,8 +10,10 @@ import Forms from './Forms.jsx'
 import Events from './Events.jsx'
 import Lights from './Light.jsx'
 import API from './API.jsx'
+import DB_connect from './DB_connect.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <DB_connect/>
     <API/>
     <Lights/>
     <Events/>
